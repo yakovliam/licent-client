@@ -6,7 +6,7 @@ import com.yakovliam.licentclient.client.request.LicentResponseData;
 
 import java.util.function.Consumer;
 
-public class AsyncRequestFunction extends RequestFunction {
+public class AsyncRequestFunction implements RequestFunction {
 
     /**
      * Error consumer

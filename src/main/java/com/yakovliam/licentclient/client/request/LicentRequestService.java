@@ -1,16 +1,14 @@
 package com.yakovliam.licentclient.client.request;
 
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.yakovliam.licentclient.client.ClientCredentials;
 import com.yakovliam.licentclient.client.request.function.AsyncRequestFunction;
-import com.yakovliam.licentclient.client.request.function.RequestFunction;
 import com.yakovliam.licentclient.client.request.function.SyncRequestFunction;
 import com.yakovliam.licentclient.factory.JsonCredentialsFactory;
 import kong.unirest.Unirest;
 import kong.unirest.json.JSONObject;
 
-public class LicentRequestService {
+public class LicentRequestService implements Service {
 
     /**
      * Do authentication

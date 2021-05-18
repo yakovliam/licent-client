@@ -4,7 +4,7 @@ import com.yakovliam.licentclient.client.LicentClient;
 import com.yakovliam.licentclient.client.request.LicentRequestService;
 import com.yakovliam.licentclient.client.request.LicentResponseData;
 
-public class SyncRequestFunction {
+public class SyncRequestFunction implements RequestFunction {
 
     /**
      * Client
